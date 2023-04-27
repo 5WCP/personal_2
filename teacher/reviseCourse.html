@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課程新增修改頁面</title>
+    <link rel="stylesheet" href="../teacher/revCoStyle.css">
+</head>
+<body>
+    <h1>課程新增修改</h1>
+    <div class="container">
+        <div class="area">
+            <label for="courseCode">課程代碼</label>
+            <input type="text" id="courseCode" name="courseCode">
+            <label for="courseName">課程名稱</label>
+            <input type="text" id="courseName" name="courseName">
+            <label for="credits">課程學分</label>
+            <input type="number" id="credits" name="credits">
+            <label for="takeClassDay">上課日</label>
+            <input type="text" id="takeClassDay" name="takeClassDay">
+            <label for="startTime">開始時間</label>
+            <input type="text" id="startTime" name="startTime">
+            <label for="endTime">結束時間</label>
+            <input type="text" id="endTime" name="endTime">
+            <div class="btnArea">
+                <button id="couAdd">新增</button>
+                <button id="couRev">修改</button>
+                <button id="couDele">刪除</button>
+            </div>
+        </div>
+        <div class="respRevCouArea">
+            <p id="respRevCou"></p>
+        </div>
+    </div>
+    <script src="../javascript/teacher/mainRevCou.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #839e89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+body h1 {
+  color: #9b3f43;
+}
+
+.area {
+  width: 30%;
+  height: 30%;
+  background-color: #945686;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #da3ab4;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.area a {
+  text-decoration: none;
+  color: #55063d;
+  margin: 10px 0;
+  transition: 0.6s;
+}
+.area a:hover {
+  background-color: #128599;
+  color: aliceblue;
+  cursor: pointer;
+}/*# sourceMappingURL=teaHoStyle.css.map */

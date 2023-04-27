@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學生加退選</title>
+    <link rel="stylesheet" href="./stuChoStyle.css">
+</head>
+<body>
+    <h1 class="stuCoTe">學生加退選</h1>
+    <div class="area">
+        <label for="studIdC">學號</label>
+        <input type="text" id="studIdC" name="studIdC">
+        <label for="courseCode">課程代碼</label>
+        <input type="text" id="courseCode" name="courseCode">
+        <div>
+            <button id="addBtn">add</button>
+            <button id="wiBtn">withdraw</button>
+        </div>
+    </div>
+
+    <div class="couListResp">
+        <pre id="couList"></pre>
+    </div>
+    <script src="../javascript/student/mainStuC.js"></script>
+</body>
+</html>

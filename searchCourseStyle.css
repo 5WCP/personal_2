@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b45656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.area {
+  width: 30%;
+  background-color: #93a154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 32px;
+  box-shadow: 5px 5px 5px #d2d6be;
+  color: #74095d;
+  font-size: 24px;
+}
+.area label {
+  margin: 10px 0;
+}
+.area input {
+  margin: 10px 0;
+}
+.area .btnArea {
+  margin: 10px 0;
+}
+.area .btnArea button {
+  margin: 0 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 21px;
+  background-color: #8f825f;
+  transition: 0.6s;
+}
+.area .btnArea button:hover {
+  cursor: pointer;
+  background-color: #640b97;
+  color: #d2d6be;
+}
+
+.searRespArea {
+  height: 40%;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}/*# sourceMappingURL=searchCourseStyle.css.map */

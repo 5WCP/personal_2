@@ -1,0 +1,49 @@
+.area {
+    width: 30%;
+    background-color: #945686;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #da3ab4;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #55063d;
+
+    label {
+        margin: 10px 0;
+    }
+
+    input {
+        margin: 10px 0;
+    }
+
+    .btnArea {
+        margin: 20px 0;
+
+        button {
+            margin: 0 10px;
+            font-size: 21px;
+            background-color: #57568b;
+            border: none;
+            border-radius: 4px;
+            transition: 0.6s;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #120fb8;
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+.respRevStuArea {
+    font-size: 16px;
+    text-align: center;
+    overflow: auto;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+}

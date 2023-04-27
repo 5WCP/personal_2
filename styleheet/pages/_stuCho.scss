@@ -1,0 +1,54 @@
+.stuCoTe {
+    color: #3a6312;
+}
+
+.area {
+    width: 30%;
+    background-color: #dde9d0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #b9c4ad;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1535a0;
+
+    label {
+        margin: 10px 0;
+    }
+
+    input {
+        margin: 10px 0;
+    }
+
+    button {
+        margin: 20px 10px;
+        border: none;
+        background-color: #816fc2;
+        font-size: 21px;
+        border-radius: 4px;
+        transition: 0.6s;
+
+        &:hover {
+            background-color: #1620b4;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    }
+
+    .addBtn {
+        border: none;
+    }
+
+}
+
+.couListResp {
+    margin-top: 50px;
+    height: 30%;
+    overflow: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+}
