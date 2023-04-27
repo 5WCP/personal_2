@@ -35,33 +35,33 @@ stuA.addEventListener("click" , function() {
     })
 });
 
-// stuR.addEventListener("click" , function() {
-//     let body = {
-//         "student_list": [
-//             {
-//                 "studId": stId.value,
-//                 "name": nam.value
-//             }
-//         ]
-//     };
+stuR.addEventListener("click" , function() {
+    let body = {
+        "student_list": [
+            {
+                "studId": stId.value,
+                "name": nam.value
+            }
+        ]
+    };
 
-//     fetch("http://localhost:8080/revise_stud_id" , {
-//         method: "Post",
-//         headers: {
-//             "Content-Type": "application/json",
-//         },
-//         body:JSON.stringify(body)
-//     })
-//     .then(function(response) {
-//         return response.json()
-//     })
-//     .then(function(data) {
-//         respRS.innerText = JSON.stringify(data , null , 2);
-//     })
-//     .catch(function(error) {
-//         console.log(error);
-//     })
-// });
+    fetch("http://localhost:8080/revise_stud_id" , {
+        method: "Post",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body:JSON.stringify(body)
+    })
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(data) {
+        respRS.innerText = JSON.stringify(data , null , 2);
+    })
+    .catch(function(error) {
+        console.log(error);
+    })
+});
 
 stuD.addEventListener("click" , function() {
     let body = {
