@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="./stuChoStyle.css">
 </head>
 <body>
-    <h1 class="stuCoTe">學生加退選</h1>
+    <h1>學生加退選</h1>
     <div class="area">
         <label for="studIdC">學號</label>
         <input type="text" id="studIdC" name="studIdC">
-        <label for="courseCode">課程代碼</label>
-        <input type="text" id="courseCode" name="courseCode">
+        <label for="courseCode1">課程代碼1</label>
+        <input type="text" id="courseCode1" name="courseCode1">
+        <label for="courseCode2">課程代碼2</label>
+        <input type="text" id="courseCode2" name="courseCode2">
+        <label for="courseCode3">課程代碼3</label>
+        <input type="text" id="courseCode3" name="courseCode3">
         <div>
-            <button id="addBtn">add</button>
-            <button id="wiBtn">withdraw</button>
+            <button id="addBtn">加選</button>
+            <button id="wiBtn">退選</button>
         </div>
     </div>
-
+    <div id="message" class="message"></div>
     <div class="couListResp">
         <pre id="couList"></pre>
     </div>

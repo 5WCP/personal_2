@@ -14,6 +14,7 @@ body {
 }
 body h1 {
   color: #9b3f43;
+  margin: 20px 0;
 }
 
 .container {
@@ -62,4 +63,13 @@ body h1 {
   overflow: auto;
   border-radius: 5px;
   background-color: #fff;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.message {
+  color: #170c1a;
+  background-color: #f3f3f7;
+  border-radius: 4px;
+  padding: 3px 0;
 }/*# sourceMappingURL=revCoStyle.css.map */

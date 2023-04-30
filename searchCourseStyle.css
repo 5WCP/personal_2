@@ -12,6 +12,9 @@ body {
   height: 100vh;
   margin: 0;
 }
+body h1 {
+  margin: 20px 0;
+}
 
 .area {
   width: 30%;
@@ -21,7 +24,7 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  margin-top: 32px;
+  margin-top: 20px;
   box-shadow: 5px 5px 5px #d2d6be;
   color: #74095d;
   font-size: 24px;
@@ -57,4 +60,13 @@ body {
   text-align: center;
   margin-top: 20px;
   font-size: 16px;
+  list-style-type: none;
+}
+
+.message {
+  color: #5ca86e;
+  background-color: #342588;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 3px 0;
 }/*# sourceMappingURL=searchCourseStyle.css.map */

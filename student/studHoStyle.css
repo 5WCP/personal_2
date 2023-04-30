@@ -12,9 +12,9 @@ body {
   flex-direction: column;
   margin: 0;
 }
-
-.stuHoTe {
+body h1 {
   color: #3a6312;
+  margin: 20px 0;
 }
 
 .container {
@@ -30,12 +30,10 @@ body {
   flex-direction: column;
   color: #1535a0;
 }
-.container .searCo {
-  margin-top: 32px;
-}
 .container a {
   text-decoration: none;
   transition: 0.6s;
+  margin: 10px 0;
 }
 .container a:hover {
   background-color: #6b2565;

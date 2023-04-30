@@ -14,11 +14,12 @@ body {
 }
 body h1 {
   color: #9b3f43;
+  margin: 20px 0;
 }
 
 .area {
   width: 30%;
-  height: 30%;
+  height: 35%;
   background-color: #945686;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #da3ab4;

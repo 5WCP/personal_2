@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜尋學生資料</title>
+    <link rel="stylesheet" href="./searStuInfo.css">
+</head>
+<body>
+    <h1>搜尋學生資料</h1>
+    <div class="area">
+        <label for="student">學號/姓名</label>
+        <input type="text" id="student" name="student">
+        <div class="btnArea">
+            <button id="searId">學號</button>
+            <button id="searName">姓名</button>
+            <button id="searAll">所有學生</button>
+        </div>
+    </div>
+    <div id="message" class="message"></div>
+    <div class="respStuInfoArea">
+        <pre id="respRevStu"></pre>
+    </div>
+    <script src="../javascript/teacher/mainSearStu.js"></script>
+</body>
+</html>

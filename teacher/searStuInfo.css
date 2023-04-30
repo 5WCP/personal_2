@@ -52,11 +52,10 @@ body h1 {
   color: aliceblue;
 }
 
-.respRevStuArea {
+.respStuInfoArea {
   font-size: 16px;
   text-align: center;
   overflow: auto;
-  height: 20%;
   border-radius: 5px;
   background-color: #fff;
   margin-top: 20px;
@@ -69,4 +68,4 @@ body h1 {
   border-radius: 4px;
   padding: 3px 0;
   margin-top: 20px;
-}/*# sourceMappingURL=revStuStyle.css.map */
+}/*# sourceMappingURL=searStuInfo.css.map */

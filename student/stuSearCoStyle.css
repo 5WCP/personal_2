@@ -12,9 +12,9 @@ body {
   flex-direction: column;
   margin: 0;
 }
-
-.stuSearCoTe {
+body h1 {
   color: #3a6312;
+  margin: 20px 0;
 }
 
 .area {
@@ -50,11 +50,20 @@ body {
 }
 
 .searCouResp {
-  margin-top: 50px;
+  margin-top: 20px;
   height: 50%;
   overflow: auto;
   text-align: center;
   font-size: 16px;
   background-color: #fff;
   border-radius: 5px;
+  list-style-type: none;
+}
+
+.message {
+  color: #efeaf0;
+  background-color: #3a1296;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 3px 0;
 }/*# sourceMappingURL=stuSearCoStyle.css.map */

@@ -10832,6 +10832,9 @@ body {
   height: 100vh;
   margin: 0;
 }
+body h1, body .h1 {
+  margin: 20px 0;
+}
 
 .area {
   width: 30%;
@@ -10841,7 +10844,7 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  margin-top: 32px;
+  margin-top: 20px;
   box-shadow: 5px 5px 5px #d2d6be;
 }
 .area a {
