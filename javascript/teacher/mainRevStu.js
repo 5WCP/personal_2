@@ -46,7 +46,8 @@ stuA.addEventListener("click" , function() {
         let resp = "";
 
         if(checkData.message) {
-            mge.textContent = "\u00A0" + `${checkData.message}` + "\u00A0";
+            const message = checkData.message.replace(/\n/g, '\u00A0<br>\u00A0');
+            mge.innerHTML = "\u00A0" + `${message}` + "\u00A0";
         }
 
         if(checkData.student_list) {
@@ -104,7 +105,8 @@ stuR.addEventListener("click" , function() {
         let resp = "";
 
         if(checkData.message) {
-            mge.textContent = "\u00A0" + `${checkData.message}` + "\u00A0";
+            const message = checkData.message.replace(/\n/g, '\u00A0<br>\u00A0');
+            mge.innerHTML = "\u00A0" + `${message}` + "\u00A0";
         }
 
         if(checkData.student_list) {
@@ -161,7 +163,8 @@ stuD.addEventListener("click" , function() {
         let resp = "";
 
         if(checkData.message) {
-            mge.textContent = "\u00A0" + `${checkData.message}` + "\u00A0";
+            const message = checkData.message.replace(/\n/g, '\u00A0<br>\u00A0');
+            mge.innerHTML = "\u00A0" + `${message}` + "\u00A0";
         }
 
         if(checkData.student_list) {
